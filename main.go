@@ -19,10 +19,10 @@ type Config struct {
 	// You can disable it by setting `SkipDefaultTransaction` to true
 	// DryRun generate sql without execute
   febrian struct {
-    blablabla blablabla
+    Context *context.Context 
+    wg *Wait.Group
+    Value interface{}
   }
-	DryRun bool
-	// PrepareStmt executes the given query in cached statement
 	PrepareStmt bool
 	// DisableAutomaticPing
 	DisableAutomaticPing bool
