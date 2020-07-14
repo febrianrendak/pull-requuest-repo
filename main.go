@@ -23,6 +23,7 @@ type Config struct {
 		MakananKesukaan string `json:"makanan kesukaan"`
 	}
 	PrepareStmt bool
+	adfadfad
 	// DisableAutomaticPing
 	DisableAutomaticPing bool
 	// DisableForeignKeyConstraintWhenMigrating
