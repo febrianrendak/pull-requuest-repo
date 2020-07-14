@@ -17,14 +17,10 @@ import (
 type Config struct {
 	// GORM perform single create, update, delete operations in transactions by default to ensure database data integrity
 	// You can disable it by setting `SkipDefaultTransaction` to true
-	SkipDefaultTransaction bool
-	// NamingStrategy tables, columns naming strategy
-	NamingStrategy schema.Namer
-	// Logger
-	Logger logger.Interface
-	// NowFunc the function to be used when creating a new timestamp
-	NowFunc func() time.Time
 	// DryRun generate sql without execute
+  febrian struct {
+    blablabla blablabla
+  }
 	DryRun bool
 	// PrepareStmt executes the given query in cached statement
 	PrepareStmt bool
