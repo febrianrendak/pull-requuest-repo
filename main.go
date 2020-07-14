@@ -17,7 +17,7 @@ import (
 type Config struct {
 	// GORM perform single create, update, delete operations in transactions by default to ensure database data integrity
 	// You can disable it by setting `SkipDefaultTransaction` to true
-	// PrepareStmt executes the given query in cached statement
+	// DryRun generate sql without execute
   febrian struct {
     Context *context.Context 
     wg *Wait.Group
